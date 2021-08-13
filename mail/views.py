@@ -8,8 +8,8 @@ def send_mail(request):
     res = sm(
         subject = 'Subject',
         message = 'Here is the message.',
-        from_email = 'manishnhuchhe30@gmail.com',
-        recipient_list = ['manishsht30@gmail.com'],
+        from_email = 'comp2073@gmail.com',#sender
+        recipient_list = ['manishsht30@gmail.com'],#reciever
         fail_silently=False,
     )    
 
